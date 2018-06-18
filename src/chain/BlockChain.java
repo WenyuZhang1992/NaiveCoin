@@ -51,6 +51,7 @@ public class BlockChain {
         return genesis.getHash();
     }
 
+    // Test
     public Block generateNextBlock(String data) {
         Block previousBlock = blockMap.get(lastBlockHash);
         Block newBlock = new Block(previousBlock.getIndex() + 1, System.currentTimeMillis(), lastBlockHash, data);
