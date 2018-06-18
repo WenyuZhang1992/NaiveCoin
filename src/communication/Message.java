@@ -8,7 +8,8 @@ package communication;
 enum MessageType {
     QUERY_LATEST,
     QUERY_ALL,
-    RESPONSE_BLOCKCHAIN
+    RESPONSE_BLOCKCHAIN,
+    FOR_TEST
 }
 
 public class Message<T> {
